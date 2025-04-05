@@ -10,7 +10,7 @@ This repository contains two separate reinforcement learning projects for the **
 
 2. **Proximal Policy Optimization (PPO)**: 
    - A policy gradient method that improves gameplay by optimizing the policy directly.
-   - Uses clipping in the objective function to ensure that the policy updates do not deviate too much, providing stable learning.
+   - Uses clipping in the objective function to ensure the policy updates do not deviate too much, providing stable learning.
 
 ## Libraries Used
 
@@ -21,3 +21,4 @@ This repository contains two separate reinforcement learning projects for the **
 - **matplotlib**: For plotting training results.
 - **CV2**: For image processing.
 - **tqdm**: For displaying progress bars during training.
+- **stable_baselines3**: is a Python library that provides reliable implementations of reinforcement learning algorithms based on PyTorch.
